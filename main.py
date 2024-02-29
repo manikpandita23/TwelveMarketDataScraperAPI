@@ -32,7 +32,6 @@ def get_stock_quote(ticker_symbol, api_key):
         return None
 
 def main():
-    # Ask the user to enter details
     ticker = input("Enter the stock ticker symbol: ")
     api_key = input("Enter the API key: ")
 
