@@ -29,7 +29,6 @@ def main():
     ticker = "enter_ticker"
     api_key = "enter_api_key"
     stock_data = get_stock_quote(ticker, api_key)
-
     if stock_data:
         stock_price = get_stock_price(ticker, api_key)
         exchange = stock_data.get('exchange', '')
