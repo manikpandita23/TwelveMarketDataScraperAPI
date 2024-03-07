@@ -1,5 +1,4 @@
 import requests
-
 def get_stock_price(ticker_symbol, api_key):
     url = f"https://api.twelvedata.com/price?symbol={ticker_symbol}&apikey={api_key}"
     
